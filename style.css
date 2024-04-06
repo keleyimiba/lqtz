@@ -1,0 +1,157 @@
+body {
+  background-image: url("img/a.jpg");/*背景图的路径*/
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+/*清除内外边框*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*盒子1*/
+.box-1 {
+  backdrop-filter: blur(2px) brightness(95%);
+  opacity: 2;
+  box-shadow: 8px 6px 12px #c5c5c5;
+  width: 90%;
+  height: 450px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin: 13%;
+  margin-top: 1.5%;
+}
+
+.box-1 p {
+  color: #f6f8f8;
+  text-align: center;
+
+}
+
+.box-1 h3 {
+  color: white;
+  margin-left: 5%;
+}
+
+.dh {
+
+  width: 40px;
+  height: 2px;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  background-color: aqua;
+  transition: all 3s;
+}
+
+
+/*导航栏的容器*/
+.nvdbox {
+  width: 90%;
+  margin: auto;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 6px 6px 12px #c5c5c5;
+  margin-top: 10%;
+  transition: height 2s opacity 0.5 ease;
+
+}/*头像的样式*/
+.head {
+  width: 80px;
+  height: 80px;
+  border-radius: 360px;
+  margin-left: 10%;
+  margin-top: 10%;
+  border: 5px solid #B9FFFF;
+  animation: bh 2s ease-in-out infinite;
+}
+/*边框呼吸效果*/
+@keyframes bh {
+
+  0% {
+    border-color: aquamarine;
+  }
+
+  25% {
+    border-color: #e8ecec;
+  }
+
+  100% {
+    border-color: hsla(180, 68%, 48%, 0.795);
+
+  }
+}
+.box-2-1 {
+  
+
+  width: 90%;
+  height: 450px;
+  margin: auto;
+  padding: 0px;
+  
+  border-radius: 15px;
+}
+/*
+第二个盒子命名：box-2
+*/
+.box-2 {
+
+  float: left;
+
+  width: 20%;
+  margin: 1%;
+  height: 170px;
+  margin-left: 9%;
+  margin-top: 15%;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 6px 6px 12px #c5c5c5;
+  transition: all 2s;
+
+}
+
+.box-2:hover {
+  width: 30%;
+  height: 180px;
+}
+
+.box-2 h2 {
+  text-align: center;
+}
+
+.box-2 p {
+  margin-left: 2%;
+}
+
+.box-3 {
+  background-color: white;
+  opacity: 2;
+  box-shadow: 8px 6px 12px #c5c5c5;
+  width: 90%;
+  height: 450px;
+  margin: auto;
+  padding: 0px;
+  margin-top: 120px;
+  border-radius: 15px;
+}
+
+.box-3 p {
+  margin-left: 6%;
+  color: black;
+  font-size: 16px;
+}
+.box-3 a
+{
+  color: black;
+  margin-left: 66px;
+  margin-top: 12px;
+  text-decoration: none;
+}
